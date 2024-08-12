@@ -6,13 +6,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Taviraj", serif;
 }
 html {
   font-size: 62.5%; /* makes 1rem 10px */
 }
 body {
   font-size: 1.6em; /* default font of 16px */
-  font-family: "Taviraj", serif;
   line-height: 1.3;
 }
 /* fonts */
