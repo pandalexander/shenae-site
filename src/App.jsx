@@ -1,4 +1,4 @@
-import "./App.css";
+import NavButton from "./components/NavButton";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         <div className="mt-12 w-full">
           <div className="flex justify-between items-center flex-nowrap truncate">
             <p>13</p>
-            <p>Wallet&nbsp;Co.</p>
+            <NavButton />
           </div>
           <hr className="w-full border-black " />
         </div>
