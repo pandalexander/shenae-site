@@ -1,7 +1,7 @@
 import NavButton from "./components/NavButton";
 import { useState } from "react";
 
-function App() {
+function Nav() {
   const [pageNumber, setPageNumber] = useState(0);
 
   document.addEventListener("scroll", () => {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center p-12 sticky top-0 bg-lightOne">
+      <div className="flex flex-col items-center p-12 sticky top-0 bg-lightOne  drop-shadow-lg">
         <div className="my-12 w-full ">
           <div className="flex justify-between items-center flex-nowrap truncate">
             <p>{pageNumber}</p>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Nav;
