@@ -1,4 +1,4 @@
-import NavButton from "./components/NavButton";
+import NavButton from "./NavButton";
 import { useState } from "react";
 
 function Nav() {
