@@ -10,7 +10,7 @@ function Nav() {
 
   return (
     <>
-      <div className="flex flex-col items-center p-12 sticky top-0 bg-lightOne  drop-shadow-lg">
+      <div className="flex flex-col items-center px-12 sticky top-0 bg-lightOne ">
         <div className="my-12 w-full ">
           <div className="flex justify-between items-center flex-nowrap truncate">
             <p>{pageNumber}</p>
